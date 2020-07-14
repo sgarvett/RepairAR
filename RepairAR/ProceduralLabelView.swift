@@ -10,15 +10,25 @@ import SwiftUI
 
 struct ProceduralLabelView: View {
     var body: some View {
-       
+        
         HStack {
+            
             Image(systemName: "i.square.fill")
-                VStack {
-                  Text("Title")
-                  Text("body")
+                Spacer()
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Repair Title")
+                    .font(.title)
+                  Text("Placeholder for repair steps. Information of current step will be placed here")
             }
+            
         }
+        .frame(width: 375, height: 125, alignment: .leading)
+        .padding(8)
+        .background(Color.yellow.opacity(0.7))
+        .cornerRadius(15.0)
+    
     }
+    
 }
 
 struct ProceduralLabelView_Previews: PreviewProvider {
