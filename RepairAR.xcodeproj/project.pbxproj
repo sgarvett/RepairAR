@@ -14,6 +14,7 @@
 		17DC0DD724BD650400668DC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DC0DD624BD650400668DC9 /* Preview Assets.xcassets */; };
 		17DC0DDA24BD650400668DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DC0DD824BD650400668DC9 /* LaunchScreen.storyboard */; };
 		17DC0DE424BD686A00668DC9 /* ProceduralLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */; };
+		E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */; };
 		E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		17DC0DD924BD650400668DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17DC0DDB24BD650400668DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduralLabelView.swift; sourceTree = "<group>"; };
+		E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMiniIcon.swift; sourceTree = "<group>"; };
 		E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				17DC0DCF24BD650100668DC9 /* ContentView.swift */,
 				E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */,
 				17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */,
+				E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */,
 				17DC0DD124BD650100668DC9 /* Experience.rcproject */,
 				17DC0DD324BD650400668DC9 /* Assets.xcassets */,
 				17DC0DD824BD650400668DC9 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */,
 				17DC0DE424BD686A00668DC9 /* ProceduralLabelView.swift in Sources */,
 				17DC0DD024BD650100668DC9 /* ContentView.swift in Sources */,
+				E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */,
 				17DC0DCE24BD650100668DC9 /* AppDelegate.swift in Sources */,
 				17DC0DD224BD650100668DC9 /* Experience.rcproject in Sources */,
 			);
