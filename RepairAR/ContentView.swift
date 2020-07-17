@@ -12,16 +12,18 @@ import RealityKit
 struct ContentView : View {
     var body: some View {
         
+        ARViewContainer().edgesIgnoringSafeArea(.all)
        
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
-        
+            
+            // .overlay(ProceduralLabelView())
+       
     }
 }
 
 
 
 struct ARViewContainer: UIViewRepresentable {
-    
+   
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
@@ -32,7 +34,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
         
-        
+           
         
         return arView
         

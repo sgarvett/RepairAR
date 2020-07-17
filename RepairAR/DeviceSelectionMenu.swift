@@ -16,17 +16,18 @@ struct DeviceSelectionMenu: View {
                
                 Text("Mac Portables")
                 Spacer()
-                Text("iMac")
+                MacMiniIcon()
+                .frame(maxWidth: .infinity, maxHeight: 50 )
+                //.background(Color.blue.opacity(0.3))
+                .cornerRadius(6)
                 Spacer()
                 Text("Mac Pro")
-                    .frame(maxWidth: .infinity )
-                    .background(Color.blue.opacity(0.5))
-                    .cornerRadius(6)
-                
+                    
                 Spacer()
                 Text("Mac Mini")
                 Spacer()
-                Text("iPhone")
+                iPhoneIcon()
+                
     
             }
             .frame(width: 200)
