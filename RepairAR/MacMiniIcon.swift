@@ -13,12 +13,12 @@ struct MacMiniIcon: View {
         
         ZStack (alignment: .trailing) {
             RoundedRectangle(cornerRadius: 3)
-                .frame(width: 70, height: 20, alignment: .center)
+                .frame(width: 60, height: 15, alignment: .center)
                 .foregroundColor(Color.blue)
              
         
             Circle()
-                .frame(width: 5, height: 5, alignment: .trailing)
+                .frame(width: 3, height: 3, alignment: .trailing)
                 .foregroundColor(Color.white)
                 .padding(.trailing, 10)
             

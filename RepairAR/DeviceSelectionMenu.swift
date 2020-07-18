@@ -14,7 +14,7 @@ struct DeviceSelectionMenu: View {
         HStack{
             VStack {
                
-                Text("Mac Portables")
+                MacPortableIcon()
                 Spacer()
                 MacMiniIcon()
                 .frame(maxWidth: .infinity, maxHeight: 50 )
@@ -22,9 +22,6 @@ struct DeviceSelectionMenu: View {
                 .cornerRadius(6)
                 Spacer()
                 Text("Mac Pro")
-                    
-                Spacer()
-                Text("Mac Mini")
                 Spacer()
                 iPhoneIcon()
                 
