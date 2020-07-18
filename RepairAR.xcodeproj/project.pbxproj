@@ -18,6 +18,7 @@
 		17E0484824C269C500AD120A /* iMacIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E0484724C269C500AD120A /* iMacIcon.swift */; };
 		17E1973624C225A4000D64B8 /* iPhoneIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1973524C225A4000D64B8 /* iPhoneIcon.swift */; };
 		E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */; };
+		E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050C24C39BC6003D7E36 /* DeviceData.swift */; };
 		E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		17E0484724C269C500AD120A /* iMacIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMacIcon.swift; sourceTree = "<group>"; };
 		17E1973524C225A4000D64B8 /* iPhoneIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneIcon.swift; sourceTree = "<group>"; };
 		E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMiniIcon.swift; sourceTree = "<group>"; };
+		E404050C24C39BC6003D7E36 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
 		E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,11 +73,9 @@
 				17DC0DCD24BD650100668DC9 /* AppDelegate.swift */,
 				17DC0DCF24BD650100668DC9 /* ContentView.swift */,
 				E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */,
-				17E0484724C269C500AD120A /* iMacIcon.swift */,
-				17E0484524C2649400AD120A /* MacPortableIcon.swift */,
+				E404050C24C39BC6003D7E36 /* DeviceData.swift */,
 				17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */,
-				E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */,
-				17E1973524C225A4000D64B8 /* iPhoneIcon.swift */,
+				E404050B24C39B3B003D7E36 /* Icons */,
 				17DC0DD124BD650100668DC9 /* Experience.rcproject */,
 				17DC0DD324BD650400668DC9 /* Assets.xcassets */,
 				17DC0DD824BD650400668DC9 /* LaunchScreen.storyboard */,
@@ -91,6 +91,17 @@
 				17DC0DD624BD650400668DC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E404050B24C39B3B003D7E36 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				17E0484724C269C500AD120A /* iMacIcon.swift */,
+				17E0484524C2649400AD120A /* MacPortableIcon.swift */,
+				E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */,
+				17E1973524C225A4000D64B8 /* iPhoneIcon.swift */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				17DC0DD024BD650100668DC9 /* ContentView.swift in Sources */,
 				17E0484824C269C500AD120A /* iMacIcon.swift in Sources */,
 				17E0484624C2649400AD120A /* MacPortableIcon.swift in Sources */,
+				E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */,
 				E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */,
 				17E1973624C225A4000D64B8 /* iPhoneIcon.swift in Sources */,
 				17DC0DCE24BD650100668DC9 /* AppDelegate.swift in Sources */,

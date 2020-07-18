@@ -21,15 +21,15 @@ struct DeviceSelectionMenu: View {
                 //.background(Color.blue.opacity(0.3))
                 .cornerRadius(6)
                 Spacer()
-                Text("Mac Pro")
+                iMacIcon()
                 Spacer()
                 iPhoneIcon()
                 
     
             }
-            .frame(width: 200)
+            .frame(width: 200, height: 350)
         }
-            .padding()
+        .padding()
             .frame(width: 800, height: 400, alignment: .leading)
             .background(Color.blue.opacity(0.3))
             .cornerRadius(20)
