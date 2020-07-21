@@ -18,7 +18,7 @@ struct iPhoneIcon: View {
             
             RoundedRectangle(cornerRadius: 4, style: .circular)
                 .stroke(Color.blue)
-                .frame(width: 20, height: 45)
+                .frame(width: 20, height: 43)
             
             
             

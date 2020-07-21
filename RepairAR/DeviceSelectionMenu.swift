@@ -15,23 +15,21 @@ struct DeviceSelectionMenu: View {
             VStack {
                
                 MacPortableIcon()
+                Spacer(minLength: 2)
+                iMacIcon()
+                //.frame(maxWidth: .infinity, maxHeight: 50 )
+                //.background(Color.blue.opacity(0.3))
+                //.cornerRadius(6)
                 Spacer()
                 MacMiniIcon()
-                .frame(maxWidth: .infinity, maxHeight: 50 )
-                //.background(Color.blue.opacity(0.3))
-                .cornerRadius(6)
-                Spacer()
-                iMacIcon()
                 Spacer()
                 iPhoneIcon()
-                
-    
             }
             .frame(width: 200, height: 350)
         }
         .padding()
             .frame(width: 800, height: 400, alignment: .leading)
-            .background(Color.blue.opacity(0.3))
+            .background(Color.blue.opacity(0.2))
             .cornerRadius(20)
             
     }

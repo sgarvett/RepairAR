@@ -8,15 +8,27 @@
 
 import SwiftUI
 import RealityKit
+import Combine
 
 struct ContentView : View {
-    var body: some View {
+    @State private var showDeviceMenu = false
+    
+   var body: some View {
         
-        ARViewContainer().edgesIgnoringSafeArea(.all)
        
+        ZStack(alignment: .bottom) {
+            ARViewContainer().edgesIgnoringSafeArea(.all)
             
-            // .overlay(ProceduralLabelView())
-       
+            Button(action: { self.showDeviceMenu.toggle() }) {
+            Image(systemName: "plus.circle.fill")
+                .resizable()
+                .frame(width: 27, height: 27)
+                       }
+                    if showDeviceMenu {
+                        DeviceSelectionMenu()
+                    }       
+        // .overlay(ProceduralLabelView())
+        }
     }
 }
 

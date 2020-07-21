@@ -28,6 +28,7 @@ struct ProceduralLabelView: View {
                 Text("Repair Title")
                     .font(.title)
                   Text("Placeholder for repair steps. Information of current step will be placed here. it should be between three to four lines long.")
+                Image(systemName: "arrow")
                    }
                     .foregroundColor(Color.white)
             
