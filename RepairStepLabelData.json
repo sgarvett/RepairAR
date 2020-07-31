@@ -1,0 +1,36 @@
+
+[
+    {
+        "stepTitle": "Security Screws",
+        "repairImageName": "SecurityScrews"
+        "bodyText": "Start by removing security screws with (insert screwdriver name). Be sure to use correct bit as you can strip screw"
+        "id": 001
+    },
+    
+    {
+        "stepTitle": "Adhesive Removal",
+        "repairImageName": "iPhone-11-Adhesive"
+        "bodyText": "Be sure to remove adhesive around edges with (insert plastic tool name). Do not force or push further around the right side of display as not to rip display cables. "
+        "id": 002
+        
+    },
+    
+    {
+        "stepTitle": "Display Removal",
+        "repairImageName": "iPhone-11-Display"
+        "bodyText": "Once adhesive has been loosen, lift entire display straight about 5mm to allow display guides to turn. Then pull away from left side of display."
+        "id": 003
+        
+    },
+    
+    {
+        "stepTitle": "Disconnect Battery",
+        "repairImageName": "Battery Cowling"
+        "bodyText": "Remove battery cowlings and disconnect battery."
+        "id": 004
+        
+    },
+]
+
+
+

@@ -19,6 +19,7 @@
 		17E1973624C225A4000D64B8 /* iPhoneIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1973524C225A4000D64B8 /* iPhoneIcon.swift */; };
 		E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */; };
 		E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050C24C39BC6003D7E36 /* DeviceData.swift */; };
+		E496F2E524D35DE0003091D0 /* RepairStepLabelData.json in Resources */ = {isa = PBXBuildFile; fileRef = E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */; };
 		E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		17E1973524C225A4000D64B8 /* iPhoneIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneIcon.swift; sourceTree = "<group>"; };
 		E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMiniIcon.swift; sourceTree = "<group>"; };
 		E404050C24C39BC6003D7E36 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepairStepLabelData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 		17DC0DC124BD650100668DC9 = {
 			isa = PBXGroup;
 			children = (
+				E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */,
 				17DC0DCC24BD650100668DC9 /* RepairAR */,
 				17DC0DCB24BD650100668DC9 /* Products */,
 			);
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DC0DDA24BD650400668DC9 /* LaunchScreen.storyboard in Resources */,
+				E496F2E524D35DE0003091D0 /* RepairStepLabelData.json in Resources */,
 				17DC0DD724BD650400668DC9 /* Preview Assets.xcassets in Resources */,
 				17DC0DD424BD650400668DC9 /* Assets.xcassets in Resources */,
 			);
