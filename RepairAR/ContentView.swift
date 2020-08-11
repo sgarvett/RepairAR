@@ -19,6 +19,7 @@ struct ContentView : View {
         ZStack(alignment: .bottom) {
             ARViewContainer().edgesIgnoringSafeArea(.all)
             
+            
             Button(action: { self.showDeviceMenu.toggle() }) {
             Image(systemName: "plus.circle.fill")
                 .resizable()
@@ -28,8 +29,11 @@ struct ContentView : View {
                         DeviceSelectionMenu()
                     }       
         // .overlay(ProceduralLabelView())
-        }
+        // 2nd button, just for testing purposes
+           
     }
+}
+    
 }
 
 
@@ -54,6 +58,20 @@ struct ARViewContainer: UIViewRepresentable {
     
     func updateUIView(_ uiView: ARView, context: Context) {}
     
+}
+
+
+extension Color {
+    static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
+}
+
+
+
+// A style set for all buttons
+struct SimpleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+    }
 }
 
 #if DEBUG

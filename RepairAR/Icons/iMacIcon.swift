@@ -13,9 +13,10 @@ struct iMacIcon: View {
         
         
         ZStack {
+            
             RoundedRectangle(cornerRadius: 3, style: .continuous)
-                .stroke(Color.blue, lineWidth: 2.5)
-            RoundedRectangle(cornerRadius: 2).fill(Color.blue)
+                .stroke(Color.gray, lineWidth: 2.5)
+            RoundedRectangle(cornerRadius: 2).fill(Color.gray)
                 .offset(x: 0, y: 20)
                 .frame(width: 70, height: 8)
             
@@ -25,18 +26,22 @@ struct iMacIcon: View {
                 path.addLine(to: CGPoint(x: 48, y: 62))
                 path.addLine(to: CGPoint(x: 23, y: 62 ))
                 }
-            .fill(Color.blue)
+            .fill(Color.gray)
+            
             
             RoundedRectangle(cornerRadius: 1)
                 .offset(x: 0.5, y: 37)
-                .fill(Color.blue)
+                .fill(Color.gray)
                 .frame(width: 30, height: 1.5, alignment: .bottom)
             
             
            }
-        
+            
+    
         .frame(width: 70, height: 50)
+    
     }
+    
     
     
     
