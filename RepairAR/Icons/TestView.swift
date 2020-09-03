@@ -13,18 +13,41 @@ struct TestView: View {
         
         ZStack {
             
-            Color.offWhite
-            RoundedRectangle(cornerRadius: 25)
-                .fill(Color.offWhite)
-                .frame(width: 300, height: 300)
-            iPhoneIcon()
-            
+            Button(action: { print("button is pressed") } )
+            {Image(systemName: "heart.fill")
+                .foregroundColor(.gray)
+            }
+        .buttonStyle(SimpleButtonStyle())
         }
-            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-            .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
         
     }
 }
+
+
+struct SimpleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+        .padding(30)
+        .background(
+            Group {
+                if configuration.isPressed {
+            Circle()
+                .fill(Color.offWhite)
+                } else {
+                    Circle()
+                    .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+                    .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
+                        }
+                    }
+                )
+            }
+        }
+      
+
+
+
+
+
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {

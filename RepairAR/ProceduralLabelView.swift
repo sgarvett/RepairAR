@@ -16,6 +16,7 @@ struct ProceduralLabelView: View {
             Image("battery")
             .resizable()
             .aspectRatio(contentMode: .fill)
+
             .frame(width: 100, height: 120)
                 
                 .cornerRadius(12)
@@ -23,21 +24,36 @@ struct ProceduralLabelView: View {
                 .shadow(radius: 5)
                 
                 
-                Spacer()
+            Spacer()
             VStack(alignment: .leading, spacing: 4) {
-                Text("Repair Title")
+                Text("Battery")
                     .font(.title)
-                  Text("Placeholder for repair steps. Information of current step will be placed here. it should be between three to four lines long.")
+                  Text("Remove battery cowlings and disconnect battery.")
                 Image(systemName: "arrow")
                    }
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color(red: 61/256, green: 61/256, blue: 62/256))
+            Spacer()
             
         }
+            
+            
         .frame(width: 375, height: 125, alignment: .leading)
         .padding(8)
-        .background(Color.blue.opacity(0.7))
+            
+        .background(Color.offWhite.opacity(0.7))
+            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+            .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
+        
         .cornerRadius(15.0)
+        
+        
+        
+        
+        
+    
     }
+    
+
 
 }
 

@@ -29,9 +29,10 @@ struct DeviceSelectionMenu: View {
         }
         .padding()
             .frame(width: 800, height: 400, alignment: .leading)
-            .background(Color.blue.opacity(0.2))
+            .background(Color.blue.opacity(0.1))
             .cornerRadius(20)
-            
+    .offset(x: 0, y: -30)
+        .animation(.spring())
     }
 }
 

@@ -22,6 +22,7 @@
 		E48A487224DF3861001355A7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48A487124DF3861001355A7 /* TestView.swift */; };
 		E496F2E524D35DE0003091D0 /* RepairStepLabelData.json in Resources */ = {isa = PBXBuildFile; fileRef = E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */; };
 		E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */; };
+		E4E61FBE24FD744F00749C36 /* back-forward-buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E61FBD24FD744F00749C36 /* back-forward-buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E48A487124DF3861001355A7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepairStepLabelData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionMenu.swift; sourceTree = "<group>"; };
+		E4E61FBD24FD744F00749C36 /* back-forward-buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "back-forward-buttons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				17DC0DCD24BD650100668DC9 /* AppDelegate.swift */,
 				17DC0DCF24BD650100668DC9 /* ContentView.swift */,
+				E4E61FBD24FD744F00749C36 /* back-forward-buttons.swift */,
 				E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */,
 				E404050C24C39BC6003D7E36 /* DeviceData.swift */,
 				17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */,
@@ -186,6 +189,7 @@
 				17DC0DE424BD686A00668DC9 /* ProceduralLabelView.swift in Sources */,
 				E48A487224DF3861001355A7 /* TestView.swift in Sources */,
 				17DC0DD024BD650100668DC9 /* ContentView.swift in Sources */,
+				E4E61FBE24FD744F00749C36 /* back-forward-buttons.swift in Sources */,
 				17E0484824C269C500AD120A /* iMacIcon.swift in Sources */,
 				17E0484624C2649400AD120A /* MacPortableIcon.swift in Sources */,
 				E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */,

@@ -3,5 +3,35 @@
     "libraryIdentifier" : "69fe6524ce951a8c759a072ee65d8e23",
     "format" : "model",
     "displayName" : "iPhone_11.usdz"
+  },
+  {
+    "libraryIdentifier" : "dbebb1256c00dd461802daa987f3377f",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_Body 09.usdz"
+  },
+  {
+    "libraryIdentifier" : "16f4425994934154096929cefccd4b37",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_Camera body.usdz"
+  },
+  {
+    "libraryIdentifier" : "a275d01144601687b39b5a58367e82c9",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_Cameras.usdz"
+  },
+  {
+    "libraryIdentifier" : "67019a69b097f8f4ed5253406bd450ec",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_iPhoneBattery.usdz"
+  },
+  {
+    "libraryIdentifier" : "047629e9cc53443d77765487fa748d7c",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_iPhoneBody.usdz"
+  },
+  {
+    "libraryIdentifier" : "6b3856e1731295edeb68d02244621232",
+    "format" : "model",
+    "displayName" : "shapr3d_export_2020-08-18_13h37m_Logic board.usdz"
   }
 ]

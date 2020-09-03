@@ -12,29 +12,36 @@ import Combine
 
 struct ContentView : View {
     @State private var showDeviceMenu = false
+
     
    var body: some View {
         
+    
        
         ZStack(alignment: .bottom) {
             ARViewContainer().edgesIgnoringSafeArea(.all)
             
-            
-            Button(action: { self.showDeviceMenu.toggle() }) {
+            Button(action: {
+                withAnimation(.easeInOut(duration:5)){
+                    self.showDeviceMenu.toggle()
+                }
+            }) {
             Image(systemName: "plus.circle.fill")
                 .resizable()
                 .frame(width: 27, height: 27)
                        }
                     if showDeviceMenu {
                         DeviceSelectionMenu()
+                        back_forward_buttons()
                     }       
         // .overlay(ProceduralLabelView())
-        // 2nd button, just for testing purposes
-           
+            
+            
+            }
+
+        }
     }
-}
-    
-}
+
 
 
 
@@ -46,6 +53,7 @@ struct ARViewContainer: UIViewRepresentable {
         
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
+        
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
@@ -68,11 +76,11 @@ extension Color {
 
 
 // A style set for all buttons
-struct SimpleButtonStyle: ButtonStyle {
-    func makeBody(configuration: Self.Configuration) -> some View {
-        configuration.label
-    }
-}
+//struct SimpleButtonStyle: ButtonStyle {
+//    func makeBody(configuration: Self.Configuration) -> some View {
+//        configuration.label
+//    }
+//}
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
