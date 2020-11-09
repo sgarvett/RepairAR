@@ -12,14 +12,16 @@ import Combine
 
 struct ContentView : View {
     @State private var showDeviceMenu = false
+    @State private var showAlert = true
 
     
    var body: some View {
         
     
-       
+    
         ZStack(alignment: .bottom) {
             ARViewContainer().edgesIgnoringSafeArea(.all)
+            
             
             Button(action: {
                 withAnimation(.easeInOut(duration:5)){
@@ -28,16 +30,22 @@ struct ContentView : View {
             }) {
             Image(systemName: "plus.circle.fill")
                 .resizable()
-                .frame(width: 27, height: 27)
+                .frame(width: 30, height: 30)
                        }
                     if showDeviceMenu {
                         DeviceSelectionMenu()
                         back_forward_buttons()
-                    }       
+                    }
+            
+
         // .overlay(ProceduralLabelView())
             
             
             }
+        
+        .alert(isPresented: $showAlert) {
+            Alert(title: Text("Scan surface"), message: Text("Move iPad around slowly to scan surface where you want to place object"), dismissButton: .default(Text("Got it!")))
+    }
 
         }
     }
@@ -47,6 +55,8 @@ struct ContentView : View {
 
 struct ARViewContainer: UIViewRepresentable {
    
+    
+    
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
@@ -54,17 +64,28 @@ struct ARViewContainer: UIViewRepresentable {
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
         
-        
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
+    
+        // on tap move...add this is to a button
+        boxAnchor.transform.translation += SIMD3(10,0,0)
         
-           
+        boxAnchor.anchor!.transform.scale *= 2
         
+        // transform on y-axis
+        boxAnchor.children[1].anchor!.transform.translation = SIMD3(0,1,0)
+        
+        
+        // view the hiarchy of the anchors in the scene  
+        print(arView.scene.anchors)
+    
         return arView
         
     }
     
-    func updateUIView(_ uiView: ARView, context: Context) {}
+    func updateUIView(_ uiView: ARView, context: Context) {
+        
+    }
     
 }
 

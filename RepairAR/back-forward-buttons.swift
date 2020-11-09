@@ -9,23 +9,34 @@
 import SwiftUI
 
 struct back_forward_buttons: View {
+    
+    var repairStepCounter = 0
+    
+    
     var body: some View {
         HStack() {
             
-            Button(action: {print("Button tapped")}) {
+            Button(action: {
+                print("Button tapped")
+                if self.repairStepCounter == 1 {
+                    print("move forward")
+                }
+                
+            }) {
                 Image(systemName: "arrow.left.circle")
                 .resizable()
             }
             
-        Spacer(minLength: 700)
+        Spacer(minLength: 1075)
             
-            Button(action: {print("button tapped")} ) {
+            Button(action: {print("button tapped")}) {
                 Image(systemName: "arrow.right.circle")
                 .resizable()
-                }
             }
-        .frame(height: 50, alignment: .center)
+            
+        .frame(height: 40, alignment: .center)
         .padding()
+        }
     }
 }
 

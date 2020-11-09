@@ -19,6 +19,7 @@
 		17E1973624C225A4000D64B8 /* iPhoneIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1973524C225A4000D64B8 /* iPhoneIcon.swift */; };
 		E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */; };
 		E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404050C24C39BC6003D7E36 /* DeviceData.swift */; };
+		E423F5B62513D39600535709 /* ButtonBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E423F5B52513D39600535709 /* ButtonBackground.swift */; };
 		E48A487224DF3861001355A7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48A487124DF3861001355A7 /* TestView.swift */; };
 		E496F2E524D35DE0003091D0 /* RepairStepLabelData.json in Resources */ = {isa = PBXBuildFile; fileRef = E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */; };
 		E4D45F5524BE3F5400A30BA2 /* DeviceSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */; };
@@ -29,7 +30,7 @@
 		17DC0DCA24BD650100668DC9 /* RepairAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepairAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DC0DCD24BD650100668DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17DC0DCF24BD650100668DC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		17DC0DD124BD650100668DC9 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		17DC0DD124BD650100668DC9 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = /Users/samuelgarvett/Local/RepairAR/RepairAR/Experience.rcproject; sourceTree = "<absolute>"; };
 		17DC0DD324BD650400668DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17DC0DD624BD650400668DC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17DC0DD924BD650400668DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		17E1973524C225A4000D64B8 /* iPhoneIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneIcon.swift; sourceTree = "<group>"; };
 		E404050924BF9ED2003D7E36 /* MacMiniIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMiniIcon.swift; sourceTree = "<group>"; };
 		E404050C24C39BC6003D7E36 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		E423F5B52513D39600535709 /* ButtonBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackground.swift; sourceTree = "<group>"; };
 		E48A487124DF3861001355A7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E496F2E424D35DE0003091D0 /* RepairStepLabelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RepairStepLabelData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionMenu.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				17DC0DCF24BD650100668DC9 /* ContentView.swift */,
 				E4E61FBD24FD744F00749C36 /* back-forward-buttons.swift */,
 				E4D45F5424BE3F5400A30BA2 /* DeviceSelectionMenu.swift */,
+				E423F5B52513D39600535709 /* ButtonBackground.swift */,
 				E404050C24C39BC6003D7E36 /* DeviceData.swift */,
 				17DC0DE324BD686A00668DC9 /* ProceduralLabelView.swift */,
 				E404050B24C39B3B003D7E36 /* Icons */,
@@ -140,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Sam Garvett";
 				TargetAttributes = {
 					17DC0DC924BD650100668DC9 = {
@@ -193,6 +196,7 @@
 				17E0484824C269C500AD120A /* iMacIcon.swift in Sources */,
 				17E0484624C2649400AD120A /* MacPortableIcon.swift in Sources */,
 				E404050D24C39BC6003D7E36 /* DeviceData.swift in Sources */,
+				E423F5B62513D39600535709 /* ButtonBackground.swift in Sources */,
 				E404050A24BF9ED2003D7E36 /* MacMiniIcon.swift in Sources */,
 				17E1973624C225A4000D64B8 /* iPhoneIcon.swift in Sources */,
 				17DC0DCE24BD650100668DC9 /* AppDelegate.swift in Sources */,
@@ -240,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -300,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

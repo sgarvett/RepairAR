@@ -23,15 +23,14 @@ struct ProceduralLabelView: View {
                 .overlay(RoundedRectangle(cornerRadius: 11).stroke(Color.blue, lineWidth: 1))
                 .shadow(radius: 5)
                 
-                
             Spacer()
             VStack(alignment: .leading, spacing: 4) {
                 Text("Battery")
                     .font(.title)
                   Text("Remove battery cowlings and disconnect battery.")
-                Image(systemName: "arrow")
+                Spacer()
                    }
-                    .foregroundColor(Color(red: 61/256, green: 61/256, blue: 62/256))
+            .foregroundColor(Color(red: 61/256, green: 61/256, blue: 62/256))
             Spacer()
             
         }
@@ -45,11 +44,6 @@ struct ProceduralLabelView: View {
             .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
         
         .cornerRadius(15.0)
-        
-        
-        
-        
-        
     
     }
     

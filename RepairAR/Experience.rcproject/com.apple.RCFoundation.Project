@@ -160,10 +160,79 @@
                                 "withDescendants",
                                 {
                                   "typeName" : "Bool",
-                                  "value" : true
+                                  "value" : false
                                 }
                               ]
                             ],
+                            "children" : {
+                              "shapr3d_export_2020_08_18_13h37m_Body_09" : {
+                                "overrides" : {
+                                  "arguments" : [
+                                    [
+                                      "includeSceneScaling",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : false
+                                      }
+                                    ],
+                                    [
+                                      "subpath",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "shapr3d_export_2020_08_18_13h37m_Body_09"
+                                      }
+                                    ],
+                                    [
+                                      "url",
+                                      {
+                                        "typeName" : "String",
+                                        "value" : "model:dbebb1256c00dd461802daa987f3377f\/shapr3d_export_2020-08-18_13h37m_Body%2009.usdz"
+                                      }
+                                    ],
+                                    [
+                                      "withDescendants",
+                                      {
+                                        "typeName" : "Bool",
+                                        "value" : true
+                                      }
+                                    ]
+                                  ],
+                                  "factory" : {
+                                    "identifier" : "com.apple.af.FileImportAssetFactory",
+                                    "version" : "0.0"
+                                  },
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "A596D57C-1D15-4D3F-A3CB-14A21F3B850E"
+                                      }
+                                    ]
+                                  ]
+                                },
+                                "transform" : {
+                                  "matrix" : [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                }
+                              }
+                            },
                             "factory" : {
                               "identifier" : "com.apple.af.FileImportAssetFactory",
                               "version" : "0.0"
@@ -548,8 +617,8 @@
                         5.2837100028991699,
                         3.1493368624069262e-07,
                         0,
-                        6.8917877626972768e-08,
-                        0.00032390563865192235,
+                        1.2852252950779075e-07,
+                        0.0010738215642049909,
                         0,
                         1
                       ]
@@ -678,21 +747,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.98604178428649902,
-                  3.7252902984619141e-09,
-                  -0.1664976179599762,
+                  -0.058488547801971436,
                   0,
-                  -0.040684211999177933,
-                  0.96968626976013184,
-                  -0.24094238877296448,
+                  -0.99828803539276123,
                   0,
-                  0.16145046055316925,
-                  0.24435308575630188,
-                  0.95615124702453613,
+                  -0.26891359686851501,
+                  0.96303540468215942,
+                  0.015755321830511093,
                   0,
-                  0.31087431311607361,
-                  0.47050416469573975,
-                  1.8410778045654297,
+                  0.96138674020767212,
+                  0.26937475800514221,
+                  -0.056326545774936676,
+                  0,
+                  0.023146796971559525,
+                  0.0065130232833325863,
+                  -0.012119682505726814,
                   1
                 ],
                 "sceneTransform" : [

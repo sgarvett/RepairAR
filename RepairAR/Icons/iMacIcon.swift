@@ -36,6 +36,7 @@ struct iMacIcon: View {
             
             
            }
+    
             
     
         .frame(width: 70, height: 50)

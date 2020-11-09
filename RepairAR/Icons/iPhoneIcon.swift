@@ -14,11 +14,11 @@ struct iPhoneIcon: View {
             
             RoundedRectangle(cornerRadius: 1, style: .circular)
             .foregroundColor(Color.blue)
-            .frame(width: 10, height: 2)
+            .frame(width: 7, height: 2)
             
-            RoundedRectangle(cornerRadius: 4, style: .circular)
+            RoundedRectangle(cornerRadius: 3, style: .circular)
                 .stroke(Color.blue)
-                .frame(width: 20, height: 43)
+                .frame(width: 15, height: 30)
             
             
             
